@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+SC:wght@500&display=swap');
+
+.App {
+  text-align: center;
+  min-height: 100vh;
+  background-image: linear-gradient(60deg, #fff492 0%, #ff7e4f 100%);
+  font-family:'Cormorant SC', serif;
+}
+
+li{
+  list-style-type: none;
+}
+
+.search-bar{
+  width:50%;
+  border:none;
+  padding: 10px;
+  border-radius: 10px 0px 0px 10px;
+  background-color: rgb(255, 229, 198);
+}
+
+.search-button{
+  background-color: #d65121;
+  border: none;
+  padding: 10px 20px;
+  color: rgb(255, 229, 198);
+  border-radius: 0px 10px 10px 0px;
+}
+
+.recipes{
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+/* inspiring a better relationship with food */
